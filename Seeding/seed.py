@@ -59,6 +59,7 @@ def get_edge_scores(load_path, triplet_artifacts, n_tasks, task):
 
     # Load configs
     config = load_config_dir(triplet_artifacts)
+    config["output_dir"] = triplet_artifacts
     logging.info('Inferring triplets on model configuration:')
     logging.info(config)
 

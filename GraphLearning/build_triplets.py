@@ -43,6 +43,9 @@ def get_edge_scores(load_path, existing_files, doublet_artifacts, n_tasks, task)
 
     # Load configs
     config = load_config_dir(doublet_artifacts)
+    
+    # Reset artifact directory in config to the specified directory
+    config["output_dir"] = doublet_artifacts
     logging.info('Training doublets on model configuration:')
     logging.info(config)
 
