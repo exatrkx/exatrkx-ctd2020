@@ -41,8 +41,9 @@ pip install -e .
 ```
 If you have CUDA available, and wish to use the accelerated versions of the pipeline, you will also need CuPy:
 ```
-pip install cupy
+pip install cupy-cudaXXX
 ```
+where again the XXX suffix is given by the CUDA version: 100, 101, 102, etc.
 
 ## Directory Structure
 
