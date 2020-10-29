@@ -67,7 +67,7 @@ to get model artifacts saved into the folder `data/storage/path/artifacts/Traini
 
 #### b. Download model artifacts
 
-These four folders (embedding, filter, doublet GNN & triplet GNN) can be downloaded from [NEED TO CONFIRM DOWNLOAD LOCATION](www.google.com).
+These four folders (embedding, filter, doublet GNN & triplet GNN) can be downloaded from [this Google Drive folder](https://drive.google.com/drive/folders/1_Gy8GbsgupjnumrpzHqX6CONKdf89jwf?usp=sharing).
 
 ### 2. Make config file
 
